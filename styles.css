@@ -1,0 +1,175 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    background-color: #1F2937;
+    padding: 10px 30px;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    gap: 30px;
+}
+
+a {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+
+a:link {
+    text-decoration: none;
+
+}
+
+.logo {
+    margin: 30px 40px;
+}
+
+.navi {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+.herodiv {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    gap: 5px;
+    padding: 150px 0;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin: 30px;
+}
+
+button {
+    padding: 9px 1em;
+    width: 130px;
+    border-radius: 10px;
+}
+
+.rs {
+    flex-shrink: 0;
+    width: 50%;
+}
+
+.image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 240px;
+    background-color: gray;
+}
+
+h2 {
+    text-align: center;
+    padding: 70px;
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 1000;
+}
+
+.boxes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 10px 20px;
+    gap: 100px;
+}
+
+.card {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    max-width: 150px;
+
+}
+
+.box {
+    border: 5px solid blue;
+    width: 100px;
+    height: 100px;
+    border-radius: 15px;
+}
+
+.quote {
+    background-color: #E5E7EB;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 75px 100px;
+}
+
+.signup {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column#F9FAF8;
+    padding: 75px 100px;
+}
+
+.action {
+    display: flex;
+    background-color: #3882F6;
+    margin: 20px;
+    padding: 50px;
+    gap: 100px;
+    border-radius: 25px;
+}
+
+footer {
+    background-color: #1F2937;
+    display: flex;
+    padding: 40px;
+    justify-content: center;
+    align-items: center;
+    color: white;
+
+}
+
+.herotxt {
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
+}
+
+.herop {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.logo {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.sign {
+    background-color: #3882F6;
+    color: white;
+    border: none;
+}
+
+.actsign {
+    background-color: #3882F6;
+    border: 3px solid white;
+    color: white;
+
+}
+
+em {
+    font-size: 36px;
+    font-weight: lighter;
+    color: #1F2937;
+}
